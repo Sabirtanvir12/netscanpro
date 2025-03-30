@@ -34,3 +34,30 @@ Ultimate Network Scanner is an advanced GUI-based port scanner with Nmap-like ve
    ```bash
    git clone https://github.com/yourusername/stealthscan-pro.git
    cd stealthscan-pro
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the application:
+   ```bash
+   python3 scan-gui.py
+
+
+### Usage-->
+Enter target IP or hostname
+
+Specify port range or use presets
+
+Configure scan options:
+
+Service detection
+
+Version detection
+
+Thread count
+
+Click "Start Scan"
+
+View results in the table
+
+Export results if needed
+   
