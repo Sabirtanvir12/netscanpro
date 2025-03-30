@@ -9,18 +9,17 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
-# Improved Banner
+# UNSCANNER Banner
 echo -e "${PURPLE}"
 echo " _   _ _   _ ____   ____    _    _   _ _   _ _____ ____  "
 echo "| | | | \ | / ___| / ___|  / \  | \ | | \ | | ____|  _ \ "
 echo "| | | |  \| \___ \| |     / _ \ |  \| |  \| |  _| | |_) |"
 echo "| |_| | |\  |___) | |___ / ___ \| |\  | |\  | |___|  _ < "
-echo " \___/|_| \_|____/ \____/_/   \_\_| \_|_| \_|_____|_| \_\"
+echo " \___/|_| \_|____/ \____/_/   \_\_| \_|_| \_|_____|_| \_\\"
 echo -e "${NC}"
-echo -e "${CYAN}UNSCANNER - High-Grade Port Scanner${NC}"
+echo -e "${CYAN}UNSCANNER - Military Grade Port Scanner${NC}"
 echo -e "${YELLOW}Installation Script${NC}"
 echo ""
-
 
 # Function to compare versions
 version_compare() {
@@ -44,7 +43,7 @@ version_compare() {
     return 0
 }
 
-# Check Python version (without bc)
+# Check Python version
 echo -e "${BLUE}[*] Checking Python version...${NC}"
 python_version=$(python3 -c 'import sys; print("{}.{}".format(sys.version_info.major, sys.version_info.minor))' 2>/dev/null || echo "0.0")
 required_version="3.6"
@@ -108,9 +107,9 @@ fi
 
 # Final message
 echo -e "${PURPLE}"
-echo "Unscanner is ready to use!"
+echo "UNSCANNER is ready to use!"
 echo -e "${NC}"
-echo -e "Run the scanner with: ${CYAN}python3 scan-gui.py${NC}"
-echo -e "For command line mode: ${CYAN}python3 scan-gui.py --target <IP> --ports <RANGE>${NC}"
+echo -e "Run the scanner with: ${CYAN}python3 scan.py${NC}"
+echo -e "For command line mode: ${CYAN}python3 scan.py --target <IP> --ports <RANGE>${NC}"
 echo ""
 echo -e "${GREEN}Installation completed successfully!${NC}"
