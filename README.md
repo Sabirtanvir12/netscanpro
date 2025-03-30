@@ -42,14 +42,14 @@ Before installing, ensure you have:
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/Sabirtanvir12/unscanner.git
-   cd netscanpro
+   cd unscanner
    ```  
 
 2. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
-**or**
+   **or**
    ```bash
    bash setup.sh
    ```
