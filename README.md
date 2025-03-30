@@ -98,4 +98,4 @@ Before installing, ensure you have:
 
 If you like this project, don't forget to **⭐ star the repo**! 😊  
 
-📧 For any queries, reach out via **[your.email@example.com](mailto:sabirtanvir10@gmail.com)** or open an **issue**.  
+📧 For any queries, reach out via **[sabirtanvir10@gmail.com](mailto:sabirtanvir10@gmail.com)** or open an **issue**.  
