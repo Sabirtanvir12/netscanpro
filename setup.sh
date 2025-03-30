@@ -11,15 +11,16 @@ NC='\033[0m' # No Color
 
 # Improved Banner
 echo -e "${PURPLE}"
-echo "  ____  _            _   _       ____                  "
-echo " / ___|| |_ ___  ___| |_| |     / ___|  ___ __ _ _ __ "
-echo " \___ \| __/ _ \/ __| __| |____\___ \ / __/ _\` | '_ \\"
-echo "  ___) | ||  __/ (__| |_| |_____|__) | (_| (_| | | | |"
-echo " |____/ \__\___|\___|\__|_|    |____/ \___\__,_|_| |_|"
+echo " _   _ _   _ ____   ____    _    _   _ _   _ _____ ____  "
+echo "| | | | \ | / ___| / ___|  / \  | \ | | \ | | ____|  _ \ "
+echo "| | | |  \| \___ \| |     / _ \ |  \| |  \| |  _| | |_) |"
+echo "| |_| | |\  |___) | |___ / ___ \| |\  | |\  | |___|  _ < "
+echo " \___/|_| \_|____/ \____/_/   \_\_| \_|_| \_|_____|_| \_\"
 echo -e "${NC}"
-echo -e "${CYAN}StealthScan Pro - Military Grade Port Scanner${NC}"
+echo -e "${CYAN}UNSCANNER - High-Grade Port Scanner${NC}"
 echo -e "${YELLOW}Installation Script${NC}"
 echo ""
+
 
 # Function to compare versions
 version_compare() {
@@ -107,9 +108,9 @@ fi
 
 # Final message
 echo -e "${PURPLE}"
-echo "StealthScan Pro is ready to use!"
+echo "Unscanner is ready to use!"
 echo -e "${NC}"
-echo -e "Run the scanner with: ${CYAN}python3 scan.py${NC}"
-echo -e "For command line mode: ${CYAN}python3 scan.py --target <IP> --ports <RANGE>${NC}"
+echo -e "Run the scanner with: ${CYAN}python3 scan-gui.py${NC}"
+echo -e "For command line mode: ${CYAN}python3 scan-gui.py --target <IP> --ports <RANGE>${NC}"
 echo ""
 echo -e "${GREEN}Installation completed successfully!${NC}"
