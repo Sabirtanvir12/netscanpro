@@ -48,8 +48,12 @@ Before installing, ensure you have:
 2. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
-   ```  
-
+   ```
+**or**
+   ```bash
+   bash setup.sh
+   ```
+ 
 3. **Run the application**  
    ```bash
    python3 scan-gui.py
