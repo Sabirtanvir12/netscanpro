@@ -73,7 +73,7 @@ Before installing, ensure you have:
 
 ## 📸 Result Screenshots
 
-![Ultimate Network Scanner-GUI](screenshot1.png)
+![Ultimate Network Scanner-GUI](screenshot1.jpg)
 
 ---
 
