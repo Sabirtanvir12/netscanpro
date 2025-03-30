@@ -59,6 +59,14 @@ Before installing, ensure you have:
    python3 scan-gui.py
    ```  
 
+### 💻 Windows
+1. Download the ZIP file from GitHub and extract it.
+2. Open the extracted folder.
+3. Right-click inside the folder and select **Open in Terminal**.
+4. Run the script using:
+```powershell
+python scan-gui.py
+```
 ---
 
 ## 🚀 Usage
