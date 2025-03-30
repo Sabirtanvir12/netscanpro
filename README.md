@@ -41,7 +41,7 @@ Before installing, ensure you have:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/Sabirtanvir12/netscanpro.git
+   git clone https://github.com/Sabirtanvir12/unscanner.git
    cd netscanpro
    ```  
 
